@@ -26,5 +26,4 @@ public class DicewareController {
   public String[] getJson(@RequestParam(name = "length", defaultValue = "6") int length) {
     return get(length).split("\\s+");
   }
-
 }
